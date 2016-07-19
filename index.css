@@ -30,7 +30,7 @@ section.demo .item {
 .middle {
     width: 100%;
 }
-.middle .content {
+.middle {
     background-color: #393581;
 }
 
@@ -44,49 +44,63 @@ section.demo .item {
     width: 150px;
 }
 
-.demo0 .content {
-    margin-left: 150px;
+.demo0 {
+    padding-left: 150px;
 }
 .demo0 .left {
     margin-left: -100%;
+    position: relative;
+    left: -150px;
 }
 
-.demo1 .content {
-    margin-right: 150px;
+.demo1 {
+    padding-right: 150px;
 }
 .demo1 .right {
     margin-left: -150px;
+    position: relative;
+    left: 150px;
 }
 
-.demo2 .content {
-    margin-right: 150px;
-    margin-left: 150px;
+.demo2 {
+    padding-right: 150px;
+    padding-left: 150px;
 }
 .demo2 .left {
     margin-left: -100%;
+    position: relative;
+    left: -150px;
 }
 .demo2 .right {
     margin-left: -150px;
+    position: relative;
+    left: 150px;
 }
 
-.demo3 .content {
-    margin-left: 300px;
+.demo3 {
+    padding-left: 300px;
 }
 .demo3 .left {
     margin-left: -100%;
+    position: relative;
+}
+.demo3 .left1 {
+    left: -300px;
 }
 .demo3 .left2 {
-    position: relative;
-    left: 150px;
+    left: -150px;
 }
 
-.demo4 .content {
-    margin-right: 300px;
+.demo4 {
+    padding-right: 300px;
 }
 .demo4 .right {
-    margin-left: -300px;
+    margin-left: -150px;
+    position: relative;
+}
+.demo4 .right1 {
+    left: 150px;
 }
 .demo4 .right2 {
-    position: relative;
-    left: 150px;
+    left: 300px;
 }
