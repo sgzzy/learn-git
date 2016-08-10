@@ -1,0 +1,106 @@
+.clear {
+    zoom: 1;
+}
+.clear:after {
+    content: '';
+    font-size: 0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+section.demo {
+    box-sizing: border-box;
+    margin: 30px auto;
+    transition-duration: 0.3s;
+    color: #fff;
+}
+section.demo:hover {
+    box-shadow: 0px 0px 20px orange;
+}
+
+section.demo .item {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.middle {
+    width: 100%;
+}
+.middle {
+    background-color: #393581;
+}
+
+.left {
+    background-color: #5e5999;
+    width: 150px;
+}
+
+.right {
+    background-color: #584dcd;
+    width: 150px;
+}
+
+.demo0 {
+    padding-left: 150px;
+}
+.demo0 .left {
+    margin-left: -100%;
+    position: relative;
+    left: -150px;
+}
+
+.demo1 {
+    padding-right: 150px;
+}
+.demo1 .right {
+    margin-left: -150px;
+    position: relative;
+    left: 150px;
+}
+
+.demo2 {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.demo2 .left {
+    margin-left: -100%;
+    position: relative;
+    left: -150px;
+}
+.demo2 .right {
+    margin-left: -150px;
+    position: relative;
+    left: 150px;
+}
+
+.demo3 {
+    padding-left: 300px;
+}
+.demo3 .left {
+    margin-left: -100%;
+    position: relative;
+}
+.demo3 .left1 {
+    left: -300px;
+}
+.demo3 .left2 {
+    left: -150px;
+}
+
+.demo4 {
+    padding-right: 300px;
+}
+.demo4 .right {
+    margin-left: -150px;
+    position: relative;
+}
+.demo4 .right1 {
+    left: 150px;
+}
+.demo4 .right2 {
+    left: 300px;
+}
